@@ -4,6 +4,9 @@ ruby '2.7.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.11'
+gem 'bigdecimal'
+ gem 'redis-store'
+    gem 'redis-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -12,9 +15,13 @@ gem 'uglifier', '>= 1.3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+ gem 'bcrypt', '~> 3.1.7'
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem 'redis'
+gem 'hiredis'
 
 gem 'themoviedb'
 

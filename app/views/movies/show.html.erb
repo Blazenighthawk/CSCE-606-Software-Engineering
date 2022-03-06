@@ -1,5 +1,8 @@
 <!--  app/views/movies/show.html.erb -->
-<h2>Details about <em><%= @movie.title %></em></h2>
+<h2>
+<%= link_to "odered title",movie_path(@movie)%>
+Details about <em><%=@movie.title %>
+</h2>
 
 <ul id="details">
   <li>
@@ -7,8 +10,10 @@
     <%= @movie.rating %>
   </li>
   <li>
-    Released on:
+   <% = link_to "Ordered Releases",movie_path(@movie)%>
+   Released on:
     <%= @movie.release_date.strftime("%B %d, %Y") %>
+    
   </li>
 </ul>
 
@@ -16,6 +21,10 @@
 <p id="description">
   <%= @movie.description %>
 </p>
+<% if flash[:just_signed_up] %>
+  <p class="welcome">Welcome to our movies!</p>
+<% end %>
+
 
 <div class="row">
   <%= link_to 'Edit', edit_movie_path(@movie), :class => 'btn btn-primary col-2' %>

@@ -31,4 +31,22 @@
     <% end %>
   </tbody>
 </table>
+<% if Current.user %>
+    Logged in as: <%= Current.user.email %><br>
+    <= link_to 'Edit Password', edit_password_path %>
+    <%= button_to 'Logout', logout_path, method: :delete %>
+    <% else %>
+    <%= link_to 'Sign Up', sign_up_path %>
+    or
+    <%= link_to 'Login', sign_in_path %>
+  <% end %>
+
+<%= form_tag movies_path, :method => :get do
+  Include:
+  - @all_ratings.each do |rating|
+    = rating
+    = check_box_tag "ratings[#{rating}]"
+  = submit_tag 'Refresh', :class => 'btn btn-primary'
+
+  %  >
 <%= link_to 'Add new movie', new_movie_path, :class => 'btn btn-primary' %>

@@ -1,0 +1,1181 @@
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:16:11 +0300
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.11) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.11) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.11) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.11) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.11) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.11) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.11) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.11) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.11) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.11) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.13) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.13) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.11) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.13) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.13) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.11) lib/rails/engine.rb:518:in `call'
+  railties (4.2.11) lib/rails/application.rb:165:in `call'
+  rack (1.6.13) lib/rack/lock.rb:17:in `call'
+  rack (1.6.13) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.13) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (126.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:16:15 +0300
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.11) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.11) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.11) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.11) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.11) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.11) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.11) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.11) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.11) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.11) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.13) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.13) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.11) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.13) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.11) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.13) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.11) lib/rails/engine.rb:518:in `call'
+  railties (4.2.11) lib/rails/application.rb:165:in `call'
+  rack (1.6.13) lib/rack/lock.rb:17:in `call'
+  rack (1.6.13) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.13) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.1ms)
+  [1m[36m (215.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (340.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateMovies (20150809022253)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMovies (20150809022253)
+  [1m[35m (0.1ms)[0m  begin transaction
+DEPRECATION WARNING: `#timestamps` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/bentex/Pictures/hw-rails-intro-master/db/migrate/20150809022253_create_movies.rb:10)
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" varchar, "description" text, "release_date" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150809022253"]]
+  [1m[36m (203.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:20:17 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:12: syntax error, unexpected ':', expecting ']'
+      sort = case params[:id:release_date]
+                            ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:13: syntax error, unexpected `then', expecting `end'
+             when "title" then "title"
+                          ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `when', expecting `end'
+              when "release_date" then "release...
+              ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+...       when "release_date" then "release_date"
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `when', expecting `end'
+                when "title_reverse" then "name D...
+                ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+...      when "title_reverse" then "name DESC"
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:16: syntax error, unexpected `when', expecting `end'
+                  when "release_date_reverse" then ...
+                  ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+...hen "release_date_reverse" then "name DESC"
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+... @items_pages,@movie =paginate: items, order=> sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:21: syntax error, unexpected =>, expecting '='
+...movie =paginate: items, order=> sort, conditions=>conditions...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:21: syntax error, unexpected =>, expecting '='
+...ems, order=> sort, conditions=>conditions,per_page=>items_pe...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:21: syntax error, unexpected =>, expecting '='
+...nditions=>conditions,per_page=>items_per_page
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:65: syntax error, unexpected `end', expecting end-of-input
+  end
+  ^~~
+):
+  app/controllers/movies_controller.rb:12: syntax error, unexpected ':', expecting ']'
+  app/controllers/movies_controller.rb:13: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:16: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:21: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:21: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:21: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:65: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (43.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (48.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:28:33 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:12: syntax error, unexpected string literal, expecting ']'
+      sort = case params[:id'release_date']
+                            ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:12: syntax error, unexpected ']', expecting `end'
+... case params[:id'release_date']
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:13: syntax error, unexpected string literal, expecting `end'
+             when "title" end "title"
+                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `when', expecting `end'
+              when "release_date" end "release_...
+              ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected string literal, expecting end-of-input
+...      when "release_date" end "release_date"
+...                              ^
+):
+  app/controllers/movies_controller.rb:12: syntax error, unexpected string literal, expecting ']'
+  app/controllers/movies_controller.rb:12: syntax error, unexpected ']', expecting `end'
+  app/controllers/movies_controller.rb:13: syntax error, unexpected string literal, expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected string literal, expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (48.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:33:53 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:13: syntax error, unexpected ',', expecting `end'
+...     when "title" then "title",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+...       when "release_date" then "release_date",
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected ',', expecting `end'
+...ease_date" then "release_date",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+...      when "title_reverse" then "name DESC",
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected ',', expecting `end'
+...itle_reverse" then "name DESC",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+...hen "release_date_reverse" then "name DESC"
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+... @items_pages,@movie =paginate: items, order=  sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:23: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:23: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:66: syntax error, unexpected `end', expecting end-of-input
+end-of-input 
+^~~
+):
+  app/controllers/movies_controller.rb:13: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:23: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:23: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:66: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (48.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:40:08 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:13: syntax error, unexpected ',', expecting `end'
+...     when "title" then "title",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+...       when "release_date" then "release_date",
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected ',', expecting `end'
+...ease_date" then "release_date",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+...      when "title_reverse" then "name DESC",
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected ',', expecting `end'
+...itle_reverse" then "name DESC",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+...hen "release_date_reverse" then "name DESC"
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+... @items_pages,@movie =paginate: items, order=  sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:23: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:23: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:66: syntax error, unexpected `end', expecting end-of-input
+end-of-input 
+^~~
+):
+  app/controllers/movies_controller.rb:13: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:23: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:23: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:66: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (52.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:43:55 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:13: syntax error, unexpected ',', expecting `end'
+...     when "title" then "title",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+...       when "release_date" then "release_date",
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected ',', expecting `end'
+...ease_date" then "release_date",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+...      when "title_reverse" then "name DESC",
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected ',', expecting `end'
+...itle_reverse" then "name DESC",
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+...hen "release_date_reverse" then "name DESC"
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+... @items_pages,@movie =paginate: items, order=  sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:23: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:23: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:66: syntax error, unexpected `end', expecting end-of-input
+end-of-input 
+^~~
+):
+  app/controllers/movies_controller.rb:13: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:16: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:21: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:23: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:23: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:66: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (67.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:44:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `when', expecting `end'
+              when "release_date" then "release...
+              ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+...       when "release_date" then "release_date" end
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `when', expecting `end'
+                when "title_reverse" then "name D...
+                ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+...      when "title_reverse" then "name DESC" end
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:16: syntax error, unexpected `when', expecting end-of-input
+                  when "release_date_reverse" then ...
+                  ^~~~
+):
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:14: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:16: syntax error, unexpected `when', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (51.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:45:43 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `when', expecting `end'
+              when "release_date" then "release...
+              ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+...       when "release_date" then "release_date" 
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:17: syntax error, unexpected `when', expecting `end'
+                when "title_reverse" then "name D...
+                ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:17: syntax error, unexpected `then', expecting `end'
+...      when "title_reverse" then "name DESC" 
+...                           ^~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:19: syntax error, unexpected `when', expecting end-of-input
+                  when "release_date_reverse" then ...
+                  ^~~~
+):
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:15: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:17: syntax error, unexpected `when', expecting `end'
+  app/controllers/movies_controller.rb:17: syntax error, unexpected `then', expecting `end'
+  app/controllers/movies_controller.rb:19: syntax error, unexpected `when', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (54.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:51:02 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:13: syntax error, unexpected `if', expecting `when'
+             if "title" then "title" 
+             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:25: syntax error, unexpected ':', expecting `end'
+... @items_pages,@movie =paginate: items, order=  sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:27: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:27: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:13: syntax error, unexpected `if', expecting `when'
+  app/controllers/movies_controller.rb:25: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:27: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:27: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (65.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:54:13 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+... @items_pages,@movie =paginate: items, order=  sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:54:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+... @items_pages,@movie =paginate: items, order=  sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (63.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 13:57:52 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+      @items_pages,@movie => paginate: items, order =>  s...
+                          ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...ie => paginate: items, order =>  sort, conditions =>  condit...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+..., order =>  sort, conditions =>  conditions,per_page => item...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...ions =>  conditions,per_page => items_per_page
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (51.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:01:25 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected '(', expecting '='
+      @items_pages,@movie (paginate: items, order =>  so...
+                          ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...ovie (paginate: items, order =>  sort, conditions =>  condit...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+..., order =>  sort, conditions =>  conditions,per_page => item...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...ions =>  conditions,per_page => items_per_page)
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected '(', expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:02:20 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+...@items_pages,@movie = paginate: items, order =  sort, condit...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ')', expecting `end'
+...tions,per_page =items_per_page)
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ')', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:05:36 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+...@items_pages,@movie = paginate: items, order =  sort, condit...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ')', expecting `end'
+...tions,per_page =items_per_page)
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ')', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:07:47 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+...@items_pages,@movie = paginate: items, order =  sort, condit...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (49.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:19:05 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+...pages,@movie = :paginate  items, order =>  sort, conditions ...
+...                          ^~~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...ie = :paginate  items, order =>  sort, conditions => conditi...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+..., order =>  sort, conditions => conditions,per_page =>items_...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...tions => conditions,per_page =>items_per_page
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (74.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:27:59 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+...@items_pages,@movie = paginate:  items, order =  sort, condi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (38.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (79.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:35:55 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+...s,@movie = paginate end   items, order =  sort, conditions =...
+...                          ^~~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:71: syntax error, unexpected `end', expecting end-of-input):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:71: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (64.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (235.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (539.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:36:55 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+...s,@movie = paginate end   items, order =  sort, conditions =...
+...                          ^~~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:71: syntax error, unexpected `end', expecting end-of-input):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:71: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (204.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (225.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (46.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-26 14:37:01 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+...s,@movie = paginate end   items, order =  sort, conditions =...
+...                          ^~~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:71: syntax error, unexpected `end', expecting end-of-input):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:71: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20220228052053)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar NOT NULL, "password_digest" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20220228052053"]]
+  [1m[36m (375.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00.000000"], ["created_at", "2022-02-28 05:31:45.912303"], ["updated_at", "2022-02-28 05:31:45.912303"]]
+  [1m[35m (228.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Terminator"], ["rating", "R"], ["release_date", "1984-10-26 00:00:00.000000"], ["created_at", "2022-02-28 05:31:46.145448"], ["updated_at", "2022-02-28 05:31:46.145448"]]
+  [1m[36m (259.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00.000000"], ["created_at", "2022-02-28 05:31:46.409973"], ["updated_at", "2022-02-28 05:31:46.409973"]]
+  [1m[35m (235.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00.000000"], ["created_at", "2022-02-28 05:31:46.649735"], ["updated_at", "2022-02-28 05:31:46.649735"]]
+  [1m[36m (338.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Chocolat"], ["rating", "PG-13"], ["release_date", "2001-01-05 00:00:00.000000"], ["created_at", "2022-02-28 05:31:46.992147"], ["updated_at", "2022-02-28 05:31:46.992147"]]
+  [1m[35m (238.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amelie"], ["rating", "R"], ["release_date", "2001-04-25 00:00:00.000000"], ["created_at", "2022-02-28 05:31:47.235055"], ["updated_at", "2022-02-28 05:31:47.235055"]]
+  [1m[36m (200.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "2001: A Space Odyssey"], ["rating", "G"], ["release_date", "1968-04-06 00:00:00.000000"], ["created_at", "2022-02-28 05:31:47.442879"], ["updated_at", "2022-02-28 05:31:47.442879"]]
+  [1m[35m (224.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "The Incredibles"], ["rating", "PG"], ["release_date", "2004-11-05 00:00:00.000000"], ["created_at", "2022-02-28 05:31:47.672802"], ["updated_at", "2022-02-28 05:31:47.672802"]]
+  [1m[36m (205.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00.000000"], ["created_at", "2022-02-28 05:31:47.881878"], ["updated_at", "2022-02-28 05:31:47.881878"]]
+  [1m[35m (203.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "G"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2022-02-28 05:31:48.089762"], ["updated_at", "2022-02-28 05:31:48.089762"]]
+  [1m[36m (325.0ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-28 18:53:45 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+...s,@movie = paginate end   items, order =  sort, conditions =...
+...                          ^~~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:76: syntax error, unexpected `end', expecting end-of-input):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:76: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (80.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (137.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-28 18:53:50 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+...s,@movie = paginate end   items, order =  sort, conditions =...
+...                          ^~~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:76: syntax error, unexpected `end', expecting end-of-input):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:76: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (20.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-28 18:54:03 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+...s,@movie = paginate end   items, order =  sort, conditions =...
+...                          ^~~~~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:76: syntax error, unexpected `end', expecting end-of-input):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected local variable or method, expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+  app/controllers/movies_controller.rb:76: syntax error, unexpected `end', expecting end-of-input
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-28 18:55:30 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+...@items_pages,@movie = paginate: items, order =>  sort, condi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...vie = paginate: items, order =>  sort, conditions => conditi...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+..., order =>  sort, conditions => conditions,per_page =>items_...
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+...tions => conditions,per_page =>items_per_page
+...                             ^~
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:26: syntax error, unexpected =>, expecting '='
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-28 18:56:04 +0300
+
+SyntaxError (/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+...@items_pages,@movie = paginate: items, order = sort, conditi...
+...                              ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+        render :partial =  "movies_list", layout = fal...
+                        ^
+/home/bentex/Pictures/hw-rails-intro-master/app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+...nder :partial =  "movies_list", layout = false
+...                              ^
+):
+  app/controllers/movies_controller.rb:26: syntax error, unexpected ':', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected '=', expecting `end'
+  app/controllers/movies_controller.rb:28: syntax error, unexpected ',', expecting `end'
+
+
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.7.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.7.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.8ms)
